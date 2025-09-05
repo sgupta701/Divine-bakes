@@ -1,70 +1,122 @@
-# Getting Started with Create React App
+# Divine Bakes 🍰
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Divine Bakes is a **React-based online bakery e-commerce website** where
+users can explore, customize, and order cakes and desserts.\
+It provides a smooth shopping experience with an integrated cart system,
+product filters, personalization options, and chatbot support.
 
-## Available Scripts
+------------------------------------------------------------------------
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+### 🌐 General
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-   Built with **React** and **React Router**.
+-   Responsive design with `App.css` styling.
+-   Integrated **Botpress Chatbot** for customer support.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🧭 Navigation
 
-### `npm test`
+-   **Top Navbar** with links: Order Online, Cart, Visit Us, About Us,
+    Login/Signup.
+-   **Menu Bar**: Cakes by Flavour, Theme, Combos, Breads, Gifts,
+    Occasions, and more.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🎡 Slider / Hero Section
 
-### `npm run build`
+-   Rotating background banner with navigation arrows.
+-   "Step Into a Sweet Wonderland" tagline and **Shop Now** button.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🛍️ Product Sections
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-   **Our Products**: Cupcakes, Brownies, Cakes, Sampler Packs, Banana
+    Pudding.
+-   **Occasions**: Anniversary, Birthday, Wedding, Graduation.
+-   **Shop Now Page** with filters and gallery of cakes with prices.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🛒 Cart System
 
-### `npm run eject`
+-   Add items to cart with name, price, and image.
+-   Dynamic total price calculation.
+-   "Proceed to Checkout" alert (placeholder for backend integration).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🎨 Personalized Cakes
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-   Upload your own cake picture (rendered on HTML `<canvas>`).
+-   Add special comments.
+-   Add-ons available (Candies, Fruits, Extra Chocolate, Special
+    Candles, etc.).
+-   Price updates dynamically based on add-ons.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🎂 Ready-Made Customized Cakes
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+-   Pre-designed cakes (e.g., Minion, Anti-Gravity, Matki, Butterfly).
+-   Category and price-based filters.
 
-## Learn More
+### ✅ What We Offer
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-   100% Homemade
+-   Freshness Guaranteed
+-   For the Foodies
+-   Premium Quality
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 📱 Footer
 
-### Code Splitting
+-   Social media links (Instagram, Facebook, WhatsApp).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+------------------------------------------------------------------------
 
-### Analyzing the Bundle Size
+## 🛠️ Installation & Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1.  Clone the repository:
 
-### Making a Progressive Web App
+    ``` bash
+    git clone https://github.com/your-username/divine-bakes.git
+    cd divine-bakes
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2.  Install dependencies:
 
-### Advanced Configuration
+    ``` bash
+    npm install
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3.  Start the development server:
 
-### Deployment
+    ``` bash
+    npm start
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+4.  Visit the app at:
 
-### `npm run build` fails to minify
+        http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+------------------------------------------------------------------------
+
+## 📌 Future Improvements
+
+-   Add backend (Node.js/Express + MongoDB/Firebase) for:
+    -   User authentication (Login/Signup).
+    -   Order management.
+    -   Checkout & payment integration.
+-   Improve add-on system (fix mismatched IDs).
+-   Add quantity selector for cart items.
+-   Deploy to **Vercel/Netlify** for production.
+
+------------------------------------------------------------------------
+
+## 🤝 Contributing
+
+Pull requests are welcome!\
+For major changes, please open an issue first to discuss what you'd like
+to change.
+
+------------------------------------------------------------------------
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+------------------------------------------------------------------------
+
+💖 Made with love by **Divine Bakes**
