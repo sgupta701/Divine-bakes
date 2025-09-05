@@ -22,27 +22,21 @@ product filters, personalization options, and chatbot support.
 -   **Menu Bar**: Cakes by Flavour, Theme, Combos, Breads, Gifts,
     Occasions, and more.
 
-### 🎡 Slider / Hero Section
-
--   Rotating background banner with navigation arrows.
--   "Step Into a Sweet Wonderland" tagline and **Shop Now** button.
-
 ### 🛍️ Product Sections
 
 -   **Our Products**: Cupcakes, Brownies, Cakes, Sampler Packs, Banana
     Pudding.
 -   **Occasions**: Anniversary, Birthday, Wedding, Graduation.
--   **Shop Now Page** with filters and gallery of cakes with prices.
+-   **Shop Now Page** with gallery of cakes with prices.
 
 ### 🛒 Cart System
 
 -   Add items to cart with name, price, and image.
 -   Dynamic total price calculation.
--   "Proceed to Checkout" alert (placeholder for backend integration).
 
 ### 🎨 Personalized Cakes
 
--   Upload your own cake picture (rendered on HTML `<canvas>`).
+-   Upload your own cake picture
 -   Add special comments.
 -   Add-ons available (Candies, Fruits, Extra Chocolate, Special
     Candles, etc.).
@@ -52,13 +46,6 @@ product filters, personalization options, and chatbot support.
 
 -   Pre-designed cakes (e.g., Minion, Anti-Gravity, Matki, Butterfly).
 -   Category and price-based filters.
-
-### ✅ What We Offer
-
--   100% Homemade
--   Freshness Guaranteed
--   For the Foodies
--   Premium Quality
 
 ### 📱 Footer
 
@@ -103,20 +90,3 @@ product filters, personalization options, and chatbot support.
 -   Add quantity selector for cart items.
 -   Deploy to **Vercel/Netlify** for production.
 
-------------------------------------------------------------------------
-
-## 🤝 Contributing
-
-Pull requests are welcome!\
-For major changes, please open an issue first to discuss what you'd like
-to change.
-
-------------------------------------------------------------------------
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
-------------------------------------------------------------------------
-
-💖 Made with love by **Divine Bakes**
