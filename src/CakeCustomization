@@ -1,0 +1,36 @@
+.customization-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .upload-section,
+  .addons-section {
+    width: 45%;
+  }
+  
+  .upload-section input[type="file"] {
+    margin: 10px 0;
+  }
+  
+  .upload-section .uploaded-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  .addons-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .addons-section li {
+    margin: 10px 0;
+  }
+  
+  .price {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
